@@ -1,0 +1,36 @@
+[{
+ "operation": "shift",
+ "spec": {
+  "flight_date": "flight_date",
+  "flight_status": "flight_status",
+  "departure": {
+   "airport": "depAirport",
+   "timezone": "depTimezone"
+  },
+  "arrival": {
+   "airport": "arrAirport",
+   "timezone": "arrTimezone",
+   "terminal": "arrTerminal",
+   "gate": "arrGate"
+  },
+  "airline": {
+   "name": "airlineName"
+  },
+  "flight": {
+   "number": "flightNumber"
+  },
+  "aircraft": {
+   "registration": "aircraftRegistration"
+  },
+  "live": {
+   "updated": "LiveUpdated",
+   "latitude": "latitude",
+   "longitude": "longitude",
+   "altitude": "altitude",
+   "direction": "direction",
+   "speed_horizontal": "speedHorizontal",
+   "speed_vertical": "speedVertical",
+   "is_ground": "isGround"
+  }
+ }
+}]
